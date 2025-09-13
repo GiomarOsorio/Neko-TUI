@@ -1,0 +1,36 @@
+[project]
+name = "neko-tui"
+version = "0.1.0"
+description = "A terminal user interface (TUI) client for browsing anime from multiple providers (starting with jkanime.net)."
+authors = [
+  { name = "Giomar Osorio", email = "test@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+dependencies = [
+  "textual>=0.73.0",      # Modern TUI framework
+  "requests>=2.32.0",     # HTTP client
+  "beautifulsoup4>=4.12", # HTML parsing
+  "lxml>=5.3.0",          # Fast parser backend for BeautifulSoup
+  "sqlalchemy>=2.0.30",   # ORM for SQLite
+]
+
+[project.urls]
+homepage = "https://github.com/yourusername/neko-tui"
+repository = "https://github.com/yourusername/neko-tui"
+issues = "https://github.com/yourusername/neko-tui/issues"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+dev-dependencies = [
+  "pytest>=8.3.0",
+  "black>=24.4.0",
+  "isort>=5.13.0",
+]
+
+[project.scripts]
+neko-tui = "neko_tui.main:run_app"
