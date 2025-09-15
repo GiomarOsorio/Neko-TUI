@@ -1,0 +1,12 @@
+# ⚙️ CODEOWNERS file
+# This file defines who is responsible for reviewing changes to specific parts of the repository.
+# When a Pull Request modifies code matching one of the following paths,
+# GitHub will automatically request a review from the listed owner(s).
+
+# 👤 Global owner (all files in the repo)
+* @GiomarOsorio
+
+# Example of future customization:
+# /docs/ @otherContributor
+# /src/providers/ @GiomarOsorio
+# /tests/ @GiomarOsorio
