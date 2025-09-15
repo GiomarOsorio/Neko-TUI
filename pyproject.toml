@@ -14,12 +14,13 @@ dependencies = [
   "beautifulsoup4>=4.12", # HTML parsing
   "lxml>=5.3.0",          # Fast parser backend for BeautifulSoup
   "sqlalchemy>=2.0.30",   # ORM for SQLite
+  "cloudscraper>=1.2.71",
 ]
 
 [project.urls]
-homepage = "https://github.com/yourusername/neko-tui"
-repository = "https://github.com/yourusername/neko-tui"
-issues = "https://github.com/yourusername/neko-tui/issues"
+homepage = "https://github.com/giomarosorio/neko-tui"
+repository = "https://github.com/giomarosorio/neko-tui"
+issues = "https://github.com/giomarosorio/neko-tui/issues"
 
 [build-system]
 requires = ["setuptools>=61"]
